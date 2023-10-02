@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Compose Tweet</title>
+    <link href="../../dist/output.css" rel="stylesheet"
+</head>
+<body class="bg-neutral-1000 h-[calc(100dvh)] flex flex-col text-neutral-50 relative">
+    <div class="py-3 px-4 w-full flex justify-between items-center">
+        <a href="../HomeFeed/HomeFeed.html">
+            <img src="../../public/images/signup-screen/signup-x.svg" class="mr-5">
+        </a>
+        <button class="
+        bg-twitter-blue h-8 py-3 px-6 rounded-full font-bold
+        flex justify-center items-center text-center disabled:opacity-50" >
+            Post
+        </button>
+    </div>
+
+    <main>
+        <div class="flex items-start my-2 mx-4 h-full">
+            <img src="../../public/images/user-avatars/user-avatar-2.png" class="w-9 h-auto rounded-full">
+            <textarea class="bg-inherit ml-3 w-full h-full mt-1.5 caret-twitter-blue focus:outline-none resize-none
+            rounded-md placeholder-neutral-500" placeholder="What's happening?"></textarea>
+        </div>
+    </main>
+
+    <footer class="fixed bottom-0 py-3 px-4 flex border border-neutral-800 w-full text-neutral-500 text-sm">
+        0/280
+    </footer>
+</body>
+</html>
