@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Components</title>
+    <link href="../../dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-black">
+
+    <!-- Input Components -->
+    
+    <div class="
+    text-white font-bold bg-twitter-blue py-2 px-4 w-auto mt-14"
+    >
+        <h2>
+            Assignment 1.2 Input Components
+        </h2>
+    </div>
+
+    <section class="m-3 flex justify-around items-center flex-wrap">
+
+        <!--Input with label-->
+        <fieldset class="flex-shrink-0 m-3 mb-5 w-99 px-3 py-2 border border-neutral-500 rounded focus-within:border-twitter-blue group">
+            <legend class="text-neutral-500 text-xs font-medium group-focus-within:text-twitter-blue">
+                <div class="px-2">
+                    Label
+                </div>
+            </legend>
+            <div class="flex justify-around">
+                <input type="email" placeholder="Type an e-mail id to see validation" class="w-full text-xl peer bg-inherit focus:outline-none text-neutral-50 placeholder:text-neutral-500">
+                <img src="../../public/images/input-components/valid.png" class="invisible peer-valid:visible peer-invalid:invisible">
+            </div>
+        </fieldset>
+    
+        <!-- Tweet Input -->
+        <div class="flex flex-shrink-0 items-center m-3 mb-5">
+            <img src="../../public/images/input-components/user-avatar.png" class="w-8 h-auto rounded-full">
+            <input type="text" placeholder="What's happening?" class="
+            mx-2 bg-inherit placeholder:text-neutral-500 text-neutral-50
+            text-xl focus:outline-none" >
+        </div>
+    
+        <!-- Search Bar -->
+        <search class="flex flex-shrink-0 items-center w-91 h-10 m-3 mb-5 focus-within:ring-1 focus-within:ring-twitter-blue py-2.5 px-4 rounded-full
+        bg-search-bar-fill">
+            <img src="../../public/images/input-components/dark-theme-search-group.png" class="w-auto h-4">
+            <input type="text" placeholder="Search" class="w-full
+            mx-2 bg-inherit placeholder:text-neutral-500 text-neutral-50
+            focus:outline-none" >
+        </search>>
+    </section>
+    
+</body>
+</html>

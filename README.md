@@ -1,2 +1,2 @@
-# 100X-Components
- This contains all the required components for the capstone project
+# 100xComponents
+Components written with Tailwind CSS for 100x App.
